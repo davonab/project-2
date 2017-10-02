@@ -9,9 +9,11 @@ body {
 h1, h2, h3 {
   background-color: white;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 li {
   font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
 }
 img {
   display: block;
