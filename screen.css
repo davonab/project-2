@@ -2,11 +2,20 @@ body, form {
   margin: 0;
   padding: 0;
 }
-body {
+html {
   background-color: dodgerblue;
+  font-size: 1.125em; /*18 / 16*/
+  line-height: 1.222em; /*22 / 18*/
+
 }
-h1, h2, h3 {
-  background-color: floralwhite;
+body {
+  padding-top: 2.444em; /*44 / 18*/
+  padding-right: 1.222em; /*22 / 18*/
+  padding-left: 1.222em; /*22 / 18*/
+}
+h1,
+h2,
+h3 {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
