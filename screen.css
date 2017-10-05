@@ -30,6 +30,27 @@ h3 {
 li {
   font-weight: 900;
 }
+#navigation ul {
+  list-style-type: none;
+}
+#navigation{
+position: absolute;
+width: 100%;
+top:0;
+left: 0;
+}
+#navigation li {
+float: left;
+width: 33.33333%;
+}
+#navigation a{
+display:block;
+width: 100;
+text-allign: center;
+text-decoration: none;
+color: white;
+background-color:red;
+}
 img {
   display: block;
   max-width: 100%;
