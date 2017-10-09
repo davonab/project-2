@@ -65,10 +65,12 @@ li {
   font-family: "Times New Roman", Georgia, serif;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
+  text-align: center;
 }
 #footer {
   font-family: "Times New Roman", Georgia, serif;
   color: aliceblue;
+  text-align: center;
 }
 img {
   display: block;
