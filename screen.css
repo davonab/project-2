@@ -3,7 +3,7 @@ body, form {
   padding: 0;
 }
 html {
-  background-color: dodgerblue;
+  background-color: steelblue;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
@@ -19,37 +19,43 @@ h3 {
   font-weight: bold;
 }
 h1 {
-   font-size:3.129em;
+  font-size: 3.129em;
 }
 h2 {
-  font-size:2.353em;
+  font-size: 2.353em;
 }
 h3 {
-  font-size:1.769em;
+  font-size: 1.769em;
 }
 li {
   font-weight: 900;
 }
 #navigation ul {
   list-style-type: none;
+  padding-bottom: 0;
 }
-#navigation{
-position: absolute;
-width: 100%;
-top:0;
-left: 0;
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 #navigation li {
-float: left;
-width: 33.33333%;
+  float: left;
+  width: 33.33333%;
 }
-#navigation a{
-display:block;
-width: 100;
-text-allign: center;
-text-decoration: none;
-color: white;
-background-color:red;
+#navigation a {
+  display: block;
+  width: 100%;
+  text-allign: center;
+  text-decoration: none;
+  color: white;
+  background-color: lightcoral;
+}
+#content section,
+#content h2,
+#header h1 {
+  color: aliceblue;
 }
 img {
   display: block;
