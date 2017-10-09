@@ -62,9 +62,13 @@ li {
   color: aliceblue;
 }
 #content figcaption {
-  font-family: "Times New Roman", Georgia, Serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
+}
+#footer {
+  font-family: "Times New Roman", Georgia, serif;
+  color: aliceblue;
 }
 img {
   display: block;
