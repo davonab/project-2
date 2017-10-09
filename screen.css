@@ -27,9 +27,12 @@ h2 {
 }
 h3 {
   font-size: 1.769em;
+  text-decoration: underline;
+  text-align: center;
 }
 li {
   font-weight: 900;
+  text-align: center;
 }
 #navigation ul {
   list-style-type: none;
