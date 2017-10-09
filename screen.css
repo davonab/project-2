@@ -61,6 +61,11 @@ li {
 #header h1 {
   color: aliceblue;
 }
+#content figcaption {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 1.125em; /*18 / 16*/
+  line-height: 1.222em; /*22 / 18*/
+}
 img {
   display: block;
   max-width: 100%;
