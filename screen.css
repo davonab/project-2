@@ -67,6 +67,10 @@ li {
   line-height: 1.222em; /*22 / 18*/
   text-align: center;
 }
+#content section{
+  background-color: wheat;
+  border-style: dashed;
+}
 #footer {
   font-family: "Times New Roman", Georgia, serif;
   color: aliceblue;
