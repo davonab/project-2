@@ -65,6 +65,8 @@ li {
   text-decoration: none;
   color: black;
   background-color: maroon;
+  padding-top: 0.555em; /*10 / 18*/
+  padding-bottom: 0.555em; /*10 / 18*/
 }
 #navigation a:hover {
   background-color: white;
