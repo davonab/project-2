@@ -21,14 +21,16 @@ h3 {
   text-align: center;
 }
 h1 {
-  font-size: 3.129em;
-  line-height: 0.7em;
+  font-size: 3.157em;
+  line-height: 1.020em;
 }
 h2 {
-  font-size: 2.353em;
+  font-size: 2.369em;
+  line-height: 1.032em;
 }
 h3 {
-  font-size: 1.769em;
+  font-size: 1.777em;
+  line-height: 1.063em;
   text-decoration: underline;
   text-align: center;
 }
@@ -71,7 +73,7 @@ li {
   line-height: 1.222em; /*22 / 18*/
   text-align: center;
 }
-#content section{
+#content section {
   background-color: wheat;
   border-style: dashed;
 }
@@ -86,8 +88,8 @@ img {
 }
 @media screen and (min-width: 375px) {
   body {
-   padding-right:0.1173em;
-   padding-left: 0.1173em;
+    padding-right: 0.1173em;
+    padding-left: 0.1173em;
   }
   h1 {
     line-height: 0.7em;
@@ -96,4 +98,4 @@ img {
     padding-left: 1em;
     padding-right: 1em;
   }
-  }
+}
