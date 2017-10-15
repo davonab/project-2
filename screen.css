@@ -24,10 +24,12 @@ h2,
 h3 {
   font-weight: bold;
   text-align: center;
+  padding-bottom: 0.444em; /*8 / 18*/
 }
 h1 {
   font-size: 3.157em;
   line-height: 1.020em;
+  padding-top: 0.444em; /*8 / 18*/
 }
 h2 {
   font-size: 2.369em;
@@ -42,6 +44,10 @@ h3 {
 li {
   font-weight: 900;
   text-align: center;
+  list-style-type: disc;
+}
+ul li ul li {
+  list-style-type: circle;
 }
 #content p {
   text-align: center;
@@ -60,6 +66,7 @@ li {
   left: 0;
 }
 #navigation li {
+  list-style-type: none;
   float: left;
   width: 33.33333%;
 }
@@ -92,6 +99,8 @@ li {
   background-color: wheat;
   border-style: groove;
   border-width: 0.277em;
+  padding-top: 1.444em; /*44 / 18*/
+  padding-bottom: 1.444em; /*44 / 18*/
 }
 #footer {
   font-family: "Courier New", Courier, monospace;
