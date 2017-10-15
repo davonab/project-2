@@ -66,6 +66,9 @@ li {
   color: black;
   background-color: maroon;
 }
+#navigation a:hover {
+  background-color: white;
+}
 #content section,
 #content h2,
 #header h1 {
