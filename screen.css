@@ -92,7 +92,7 @@ ul li ul li {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
-  text-align: center;
+  /*text-align: center;*/
   font-weight: 900;
 }
 #content section {
@@ -104,9 +104,11 @@ ul li ul li {
 }
 #footer {
   font-family: "Courier New", Courier, monospace;
-  color: aliceblue;
-  text-align: center;
+  color: black;
+  /*text-align: center;*/
   font-weight: 900;
+  padding-top: 0.444em; /*8 / 18*/
+  padding-bottom: 0.444em; /*8 / 18*/
 }
 img {
   display: block;
