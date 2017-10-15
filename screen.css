@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
   font-weight: bold;
-  text-align: center;
+  /*text-align: center;*/
   padding-bottom: 0.444em; /*8 / 18*/
 }
 h1 {
@@ -39,18 +39,18 @@ h3 {
   font-size: 1.777em;
   line-height: 1.063em;
   text-decoration: underline;
-  text-align: center;
 }
 li {
   font-weight: 900;
-  text-align: center;
+  /*text-align: center;*/
   list-style-type: disc;
 }
 ul li ul li {
   list-style-type: circle;
+  list-style-position: inside;
 }
 #content p {
-  text-align: center;
+  /*text-align: center;*/
   font-weight: 900;
 }
 #navigation ul {
