@@ -3,6 +3,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,
 menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
+
+/* Base Styles */
+
 body,
 form {
   margin: 0;
@@ -53,12 +56,14 @@ ul li ul li {
   /*text-align: center;*/
   font-weight: 900;
 }
+/* Modular Styles */
 #navigation ul {
   list-style-type: none;
   padding-bottom: 0;
   margin-left: 0;
   padding-left: 0;
 }
+/* Layout Styles */
 #navigation {
   position: absolute;
   width: 100%;
@@ -110,10 +115,12 @@ ul li ul li {
   padding-top: 0.444em; /*8 / 18*/
   padding-bottom: 0.444em; /*8 / 18*/
 }
+/* Responsive Media */
 img {
   display: block;
   max-width: 100%;
 }
+/* State Styles */
 @media screen and (min-width: 375px) {
   body {
     padding-right: 0.1173em;
