@@ -30,17 +30,17 @@ h3 {
   padding-bottom: 0.444em; /*8 / 18*/
 }
 h1 {
-  font-size: 3.157em;
-  line-height: 1.020em;
+  font-size: 3.157em; /* 56.82 / 18 */
+  line-height: 1.020em; /* 57.95 / 56.82 */
   padding-top: 0.444em; /*8 / 18*/
 }
 h2 {
-  font-size: 2.369em;
-  line-height: 1.032em;
+  font-size: 2.369em; /* 42.64 / 18 */
+  line-height: 1.032em; /* 44 / 42.64 /*
 }
 h3 {
-  font-size: 1.777em;
-  line-height: 1.063em;
+  font-size: 1.777em; /* 32 / 18 */
+  line-height: 1.063em; /* 34 / 32 */
   text-decoration: underline;
 }
 li {
