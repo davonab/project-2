@@ -54,6 +54,7 @@ ul li ul li {
 }
 #content p {
   /*text-align: center;*/
+  max-width: 700px;
   font-weight: 900;
 }
 /* Modular Styles */
@@ -133,4 +134,34 @@ img {
     padding-left: 1em;
     padding-right: 1em;
   }
+}
+@media screen and (min-width: 600px){
+  #introduction,
+  #facts {
+    width: 45.5vw;
+    float: left;
+    }
+   #pictures {
+     float: left;
+     }
+    .flexbox #content
+   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    #one,
+    #two,
+    #three {
+      float: left;
+      width: 50%;
+      margin: auto;
+    }
+
+    .flexbox #pictures {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
 }
