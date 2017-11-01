@@ -181,3 +181,11 @@ img {
     #traits {
       margin-left: 15%; /* 105 / 700 */
     }
+    .flexbox #education,
+    .flexbox #work,
+    .flex #accomplish,
+    .flex #traits {
+      display: flex;
+      flex: 0 1 auto;
+    }
+}
