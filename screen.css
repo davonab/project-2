@@ -143,8 +143,23 @@ img {
     width: 64.28%; /* 450 / 700 */
     float: left;
   }
-    #pictures {
+  #pictures {
       width: 28.57%; /* 200 / 700 */
       float: left;
       margin-left: 7.14%; /* 50 / 700 */
+    }
+    .flexbox #introduction,
+    .flexbox #facts,
+    .flexbox #pictures
+    {
+      float: left;
+      margin-left: 0;
+      flex: 1 1 auto;
+    }
+    #pictures img {
+      float: left;
+      width: 460%;
+    }
+    footer {
+      clear: both;
     }
