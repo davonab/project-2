@@ -163,3 +163,21 @@ img {
     footer {
       clear: both;
     }
+    /* 700 px grid w/50px margins
+    Columns 200px
+    Gutter 105px
+    Primary mod 280px
+    secondary mod 280px
+    */
+    #education,
+    #work,
+    #accomplish,
+    #traits
+    {
+      float: left;
+      width: 40%; /*280 / 700 */
+    }
+    #work,
+    #traits {
+      margin-left: 15%; /* 105 / 700 */
+    }
