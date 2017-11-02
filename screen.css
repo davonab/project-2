@@ -31,7 +31,7 @@ h3 {
 }
 h1 {
   font-size: 3.157em; /* 56.82 / 18 */
-  line-height: 1.020em; /* 57.95 / 56.82 */
+  line-height: 1.02em; /* 57.95 / 56.82 */
   padding-top: 0.444em; /*8 / 18*/
 
 }
@@ -54,7 +54,7 @@ ul li ul li {
   list-style-position: inside;
 }
 #content p {
-  max-width: 700px;
+  max-width: 38.89em; /*700px / 18 */
   font-weight: 900;
 }
 /* Modular Styles */
@@ -89,10 +89,7 @@ ul li ul li {
 #navigation a:hover {
   background-color: white;
 }
-#content section
-{
-  color: black;
-}
+
 #content figcaption {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125em; /*18 / 16*/
@@ -102,7 +99,7 @@ ul li ul li {
 #content section {
   padding-top: 1.444em; /*44 / 18*/
   padding-bottom: 1.444em; /*44 / 18*/
-
+  color: black;
 }
 #footer {
   font-family: "Courier New", Courier, monospace;
@@ -126,7 +123,7 @@ img {
     line-height: 0.7em;
   }
 }
-@media screen and (min-width: 860px){
+@media screen and (min-width: 860px) {
   /* 700 px grid w/50px margins
   Columns 200px
   Gutter 50px
@@ -138,54 +135,47 @@ img {
     padding-left: 5.81%; /* 50 / 860 */
   }
   #introduction,
-  #facts
-  {
+  #facts {
     width: 64.28%; /* 450 / 700 */
     float: left;
   }
   #pictures {
-      width: 28.57%; /* 200 / 700 */
-      float: left;
-      margin-left: 7.14%; /* 50 / 700 */
-    }
-    .flexbox #introduction,
-    .flexbox #facts,
-    .flexbox #pictures
-    {
-      float: left;
-      margin-left: 0;
-      flex: 1 1 auto;
-    }
-    #pictures img {
-      float: left;
-      width: 460%;
-    }
-    footer {
-      clear: both;
-    }
+    width: 28.57%; /* 200 / 700 */
+    float: left;
+    margin-left: 7.14%; /* 50 / 700 */
+  }
+  .flexbox #introduction,
+  .flexbox #facts,
+  .flexbox #pictures {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    clear: both;
+  }
     /* 700 px grid w/50px margins
     Columns 200px
     Gutter 105px
     Primary mod 280px
     secondary mod 280px
     */
-    #education,
-    #work,
-    #accomplish,
-    #traits
-    {
-      float: left;
-      width: 40%; /*280 / 700 */
-    }
-    #work,
-    #traits {
-      margin-left: 15%; /* 105 / 700 */
-    }
-    .flexbox #education,
-    .flexbox #work,
-    .flex #accomplish,
-    .flex #traits {
-      display: flex;
-      flex: 0 1 auto;
-    }
+  #education,
+  #work,
+  #accomplish,
+  #traits {
+    float: left;
+    width: 40%; /*280 / 700 */
+  }
+  #work,
+  #traits {
+    margin-left: 15%; /* 105 / 700 */
+  }
+  .flexbox #education,
+  .flexbox #work,
+  .flexbox #accomplish,
+  .flexbox #traits {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
