@@ -50,6 +50,24 @@ h3 {
   line-height: 1.063em; /* 34 / 32 */
   padding-bottom: 0.68em; /* 22 / 32 */
 }
+#content figcaption {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.125em; /*18 / 16*/
+  line-height: 1.222em; /*22 / 18*/
+  font-weight: 900;
+}
+#content section {
+  color: black;
+}
+#content2 section {
+  padding-bottom: 1.22em; /* 22 / 18 */
+}
+#footer {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-weight: 900;
+  padding-top: 0.444em; /*8 / 18*/
+}
 li {
   font-weight: 900;
   list-style-type: disc;
@@ -97,25 +115,6 @@ ul li ul li {
   background-color: white;
 }
 
-#content figcaption {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.125em; /*18 / 16*/
-  line-height: 1.222em; /*22 / 18*/
-  font-weight: 900;
-}
-#content section {
-  color: black;
-}
-#content2 section {
-  padding-bottom: 1.22em; /* 22 / 18 */
-}
-#footer {
-  font-family: "Courier New", Courier, monospace;
-  color: black;
-  font-weight: 900;
-  padding-top: 0.444em; /*8 / 18*/
-}
-
 /* Responsive Media */
 img {
   display: block;
@@ -138,8 +137,8 @@ img {
     font-size: 1.25em; /* 20 / 16 */
   }
 }
-/*"Pictures" appears on the side next to "Facts About Me" and Resume page is
-in a grid format*/
+/*"Pictures" appears on the side next to "Facts About Me" and Resume page has a
+two column format*/
 @media screen and (min-width: 860px) {
   /* 700 px grid with 50px margins
   Columns are 200px
