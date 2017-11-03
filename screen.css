@@ -11,7 +11,7 @@ form {
   padding: 0;
 }
 html {
-  background-color: lightslategray;
+  background-color: #778899;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
@@ -89,7 +89,7 @@ ul li ul li {
   text-align: center;
   text-decoration: none;
   color: black;
-  background-color: darkred;
+  background-color: #8B0000;
   padding-top: 0.555em; /*10 / 18*/
   padding-bottom: 0.555em; /*10 / 18*/
 }
