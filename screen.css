@@ -99,7 +99,7 @@ ul li ul li {
 #navigation li {
   list-style-type: none;
   float: left;
-  width: 25%; 
+  width: 25%;
 }
 #navigation a {
   display: block;
@@ -194,4 +194,19 @@ two column format*/
     display: flex;
     flex-wrap: wrap;
   }
+  /* 700 px grid with 50px margins
+  Columns are 200px
+  Gutter are 50px
+  Primary mod 310px
+  secondary mod 200px */
+  #javaprojects,
+  #cplusplusprojects
+  {
+    float: left;
+    width: 44.28%; /* 310 / 700 */
+  }
+  #cplusplusprojects {
+    margin-left: 7.14%; /* 50 / 700 */
+  }
+
 }
