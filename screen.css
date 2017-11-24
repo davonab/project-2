@@ -12,7 +12,7 @@ form {
 }
 html {
   background-color: #778899;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Times;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
 }
@@ -51,7 +51,6 @@ h3 {
   padding-bottom: 0.68em; /* 22 / 32 */
 }
 #content figcaption {
-  font-family: "Courier New", Courier, monospace;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
   font-weight: 900;
@@ -63,7 +62,6 @@ h3 {
   padding-bottom: 1.22em; /* 22 / 18 */
 }
 #footer {
-  font-family: "Courier New", Courier, monospace;
   color: black;
   font-weight: 900;
   padding-top: 0.444em; /*8 / 18*/
