@@ -97,7 +97,7 @@ ul li ul li {
 #navigation li {
   list-style-type: none;
   float: left;
-  width: 25%;
+  width: 33.33%;
 }
 #navigation a {
   display: block;
@@ -140,7 +140,7 @@ two column format*/
 @media screen and (min-width: 860px) {
   /* 700 px grid with 50px margins
   Columns are 200px
-  Gutter are 50px
+  Gutter are 105px
   Primary mod 450px
   secondary mod 200px */
   body {
@@ -148,17 +148,21 @@ two column format*/
     padding-left: 5.81%; /* 50 / 860 */
   }
   #introduction,
-  #facts {
-    width: 64.28%; /* 450 / 700 */
+  #facts,
+  #goals,
+  #pictures
+  {
+    width: 40%;
     float: left;
   }
+  #facts,
   #pictures {
-    width: 28.57%; /* 200 / 700 */
     float: left;
-    margin-left: 7.14%; /* 50 / 700 */
+    margin-left: 15%; /* 105 / 700 */
   }
   .flexbox #introduction,
   .flexbox #facts,
+  .flexbox #goals,
   .flexbox #pictures {
     float: left;
     display: flex;
