@@ -54,6 +54,7 @@ h3 {
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
   font-weight: 900;
+  padding-bottom: 1.22em; /* 22 / 18 */
 }
 #content section {
   color: black;
@@ -118,6 +119,9 @@ img,
 video {
   display: block;
   max-width: 100%;
+}
+video {
+  padding-bottom: 1.22em; /* 22 / 18 */
 }
 /* State Styles */
 @media screen and (min-width: 375px) {
