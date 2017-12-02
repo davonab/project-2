@@ -114,20 +114,20 @@ ul li ul li {
 }
 
 /* Responsive Media */
-img {
+img,
+video {
   display: block;
   max-width: 100%;
 }
-
 /* State Styles */
 @media screen and (min-width: 375px) {
   body {
     padding-right: 11.73%; /*44 /375 */
     padding-left: 11.73%; /*44 /375 */
   }
-  h1 {
-    line-height: 0.7em; /* 262.5 / 375 */
-  }
+/*  h1 {
+    line-height: 0.7em; /* 262.5 / 375
+  } */
 }
 /*increase font size for larger screens*/
 @media screen and (min-width: 640px) {
@@ -150,7 +150,8 @@ two column format*/
   #introduction,
   #facts,
   #goals,
-  #pictures
+  #pictures,
+  #video
   {
     width: 40%;
     float: left;
@@ -160,6 +161,7 @@ two column format*/
     float: left;
     margin-left: 15%; /* 105 / 700 */
   }
+
   .flexbox #introduction,
   .flexbox #facts,
   .flexbox #goals,
