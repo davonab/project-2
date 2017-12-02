@@ -141,7 +141,7 @@ two column format*/
   /* 700 px grid with 50px margins
   Columns are 200px
   Gutter are 105px
-  Primary mod 450px
+  Primary mod 280px
   secondary mod 200px */
   body {
     padding-right: 5.81%; /* 50 / 860 */
@@ -151,21 +151,26 @@ two column format*/
   #facts,
   #goals,
   #pictures,
-  #video
+  #video,
+  #connect
   {
-    width: 40%;
+    width: 40%; /* 280 / 700 */
     float: left;
   }
   #facts,
-  #pictures {
+  #pictures,
+  #connect
+ {
     float: left;
     margin-left: 15%; /* 105 / 700 */
   }
-
   .flexbox #introduction,
   .flexbox #facts,
   .flexbox #goals,
-  .flexbox #pictures {
+  .flexbox #pictures,
+  .flexbox #connect,
+  .flexbox #video
+  {
     float: left;
     display: flex;
     flex-wrap: wrap;
