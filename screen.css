@@ -110,7 +110,8 @@ ul li ul li {
   padding-top: 0.555em; /*10 / 18*/
   padding-bottom: 0.555em; /*10 / 18*/
 }
-#navigation a:hover {
+#navigation a:hover,
+#header h1:hover {
   background-color: white;
 }
 
