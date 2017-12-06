@@ -15,6 +15,7 @@ html {
   font-family: Times;
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
+
 }
 body {
   padding-top: 3.66em; /*44 / 18*/
@@ -54,7 +55,7 @@ h3 {
   font-size: 1.125em; /*18 / 16*/
   line-height: 1.222em; /*22 / 18*/
   font-weight: 900;
-  padding-bottom: 1.22em; /* 22 / 18 */
+  padding-bottom: 0.68em; /* 22 / 18 */
 }
 #content section {
   color: black;
@@ -110,19 +111,15 @@ ul li ul li {
   padding-top: 0.555em; /*10 / 18*/
   padding-bottom: 0.555em; /*10 / 18*/
 }
-#navigation a:hover,
-#header h1:hover {
+#navigation a:hover {
   background-color: white;
 }
-
 /* Responsive Media */
 img,
 video {
   display: block;
   max-width: 100%;
-}
-video {
-  padding-bottom: 1.22em; /* 22 / 18 */
+  border: dashed;
 }
 /* State Styles */
 @media screen and (min-width: 375px) {
@@ -130,9 +127,6 @@ video {
     padding-right: 11.73%; /*44 /375 */
     padding-left: 11.73%; /*44 /375 */
   }
-/*  h1 {
-    line-height: 0.7em; /* 262.5 / 375
-  } */
 }
 /*increase font size for larger screens*/
 @media screen and (min-width: 640px) {
@@ -140,8 +134,7 @@ video {
     font-size: 1.25em; /* 20 / 16 */
   }
 }
-/*"Pictures" appears on the side next to "Facts About Me" and Resume page has a
-two column format*/
+/* Two column grid for all three pages*/
 @media screen and (min-width: 860px) {
   /* 700 px grid with 50px margins
   Columns are 200px
@@ -157,15 +150,13 @@ two column format*/
   #goals,
   #pictures,
   #video,
-  #connect
-  {
+  #connect {
     width: 40%; /* 280 / 700 */
     float: left;
   }
   #facts,
   #pictures,
-  #connect
- {
+  #connect {
     float: left;
     margin-left: 15%; /* 105 / 700 */
   }
@@ -174,8 +165,7 @@ two column format*/
   .flexbox #goals,
   .flexbox #pictures,
   .flexbox #connect,
-  .flexbox #video
-  {
+  .flexbox #video {
     float: left;
     display: flex;
     flex-wrap: wrap;
@@ -214,8 +204,7 @@ two column format*/
   Primary mod 310px
   secondary mod 200px */
   #javaprojects,
-  #cplusplusprojects
-  {
+  #cplusplusprojects {
     float: left;
     width: 44.28%; /* 310 / 700 */
   }
