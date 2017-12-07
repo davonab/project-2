@@ -5,7 +5,7 @@
 $.noConflict();
 (function($) {
   // create variable for the audio element
-  var ocean = new Audio('/imgs/ocean.mp3');
+  var ocean = new Audio('/media/ocean.mp3');
   $('html').addClass('js').removeClass('no-js');
   // when the user clicks the submit button, a message will appear in the DOM
   $('#profile-form').on('submit', function() {
