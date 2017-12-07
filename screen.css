@@ -203,16 +203,16 @@ video {
   Gutter are 50px
   Primary mod 310px
   secondary mod 200px */
-  #javaprojects,
-  #cplusplusprojects {
+  #projectone,
+  #projecttwo {
     float: left;
     width: 44.28%; /* 310 / 700 */
   }
-  #cplusplusprojects {
+  #projecttwo {
     margin-left: 7.14%; /* 50 / 700 */
   }
-  .flexbosxx #javaprojects,
-  .flexbox #cplusplusprojects {
+  .flexbosxx #projectone,
+  .flexbox #projecttwo {
     display: flex;
     flex-wrap: wrap;
   }

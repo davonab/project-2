@@ -15,7 +15,7 @@ $.noConflict();
     console.log("Form has been completed, LinkedIn:", username, "Location:", location, "Job:", job);
   });
   // add caption to html and add eventlistener to 1st picture on webpage
-  $('#figcaption1').append('<ul>Click this picture for a special sound</ul>');
+  $('#caption').append('<ul>Click this picture for a special sound</ul>');
   $('#myfigure').on('click', function() {
     soundOcean();
   });
